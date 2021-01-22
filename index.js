@@ -1,5 +1,7 @@
 require("dotenv").config();//Loading .env
 const fs = require("fs");
+const app = require("express")();app.get('/', (req, res) =>{res.send("Mr.Egg#5536");});app.listen(process.env.PORT);
+
 const { Collection, Client } = require("discord.js");
 
 const client = new Client();//Making a discord bot client
