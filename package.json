@@ -1,7 +1,7 @@
 {
-  "name": "advanced-discord-music-bot",
+  "name": "Scion-Yolkv2",
   "version": "3.0.0",
-  "description": "Music Bot",
+  "description": " Best Yol Food xD",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -11,19 +11,20 @@
     "node": "14.x"
   },
   "dependencies": {
-    "@discordjs/opus": "^0.3.2",
+    "@discordjs/opus": "^0.3.3",
     "discord.js": "^12.3.1",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
     "ffmpeg": "0.0.4",
     "ffmpeg-static": "^4.2.7",
-    "yt-search": "^2.2.4",
-    "ytdl-core": "^4.1.1",
-    "opusscript": "^0.0.7",
-    "youtube-sr": "^2.0.1",
-    "lyrics-finder": "^21.4.0",
-    "ytdl-core-discord": "^1.2.4",
     "fs": "0.0.1-security",
-    "ytpl": "^2.0.0-alpha.3",
-    "node-opus": "^0.3.3"
+    "lyrics-finder": "^21.7.0",
+    "node-opus": "^0.3.3",
+    "opusscript": "0.0.7",
+    "youtube-sr": "^2.0.5",
+    "yt-search": "^2.8.0",
+    "ytdl-core": "^4.8.2",
+    "ytdl-core-discord": "^1.2.4",
+    "ytpl": "^2.2.1"
   }
 }
